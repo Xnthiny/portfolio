@@ -73,6 +73,7 @@ hr {
 }
 
 .header-avatar {
+    border: solid 2px #black;
     border-radius: 50%;
     height: 90px;
     margin: 10px;
