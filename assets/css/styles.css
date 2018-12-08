@@ -45,10 +45,6 @@ hr {
     }
 }
 
-.element {
-    @include clearfix;
-}
-
 .links {
     text-align: center;
     padding: 40px;
@@ -73,7 +69,7 @@ hr {
 }
 
 .body-avatar {
-    border-radius: 20%;
+    text-align: center;
 }
 
 .big-icon {
@@ -124,3 +120,13 @@ a:hover::after {
     width: 100%;
     transition: width .3s;
 }
+
+@media only screen and (max-width: 400px) {
+    #homepage-img {
+        width: 80%;
+    }
+  }
+
+  #homepage-img {
+    border-radius: 20%;
+  }
